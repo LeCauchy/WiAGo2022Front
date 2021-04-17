@@ -1,0 +1,1509 @@
+[
+    {
+        "id": 2215,
+        "locationId": "dangjinsupercharger",
+        "name": "Dangjin, South Korea",
+        "status": "OPEN",
+        "address": {
+            "street": "충남 당진시 송악읍 송악로 63",
+            "city": "당진",
+            "state": "48",
+            "zip": null,
+            "countryId": 137,
+            "country": "South Korea",
+            "regionId": 102,
+            "region": "Asia Pacific"
+        },
+        "gps": {
+            "latitude": 36.909503,
+            "longitude": 126.69407466
+        },
+        "dateOpened": "2019-12-20",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 42,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": false
+    },
+    {
+        "id": 2216,
+        "locationId": "seoulgangseosupercharger",
+        "name": "Seoul - Gangseo, South Korea",
+        "status": "OPEN",
+        "address": {
+            "street": "서울특별시 강서구 하늘길 38",
+            "city": "서울",
+            "state": null,
+            "zip": null,
+            "countryId": 137,
+            "country": "South Korea",
+            "regionId": 102,
+            "region": "Asia Pacific"
+        },
+        "gps": {
+            "latitude": 37.563265,
+            "longitude": 126.803108
+        },
+        "dateOpened": "2019-12-20",
+        "stallCount": 4,
+        "counted": true,
+        "elevationMeters": 13,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": false
+    },
+    {
+        "id": 117,
+        "locationId": "hawthornerocketsupercharger",
+        "name": "Hawthorne, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "1 Rocket Rd",
+            "city": "Hawthorne",
+            "state": "CA",
+            "zip": "90250",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 33.921068,
+            "longitude": -118.330054
+        },
+        "dateOpened": "2012-11-19",
+        "stallCount": 12,
+        "counted": true,
+        "elevationMeters": 18,
+        "powerKilowatt": 250,
+        "solarCanopy": false,
+        "battery": true,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 100,
+        "locationId": "buckeyesupercharger",
+        "name": "Buckeye, AZ",
+        "status": "OPEN",
+        "address": {
+            "street": "416 S Watson Rd",
+            "city": "Buckeye",
+            "state": "AZ",
+            "zip": "85326",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 33.443011,
+            "longitude": -112.556876
+        },
+        "dateOpened": "2014-03-20",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 338,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 110,
+        "locationId": "buelltonsupercharger",
+        "name": "Buellton, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "555 McMurray Rd",
+            "city": "Buellton",
+            "state": "CA",
+            "zip": "93427",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 34.61456,
+            "longitude": -120.188387
+        },
+        "dateOpened": "2013-07-13",
+        "stallCount": 10,
+        "counted": true,
+        "elevationMeters": 114,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 111,
+        "locationId": "corningsupercharger",
+        "name": "Corning, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "950 Hwy 99",
+            "city": "Corning",
+            "state": "CA",
+            "zip": "96021",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 39.926454,
+            "longitude": -122.198393
+        },
+        "dateOpened": "2013-10-18",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 87,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 137,
+        "locationId": "portorangesupercharger",
+        "name": "Port Orange, FL",
+        "status": "OPEN",
+        "address": {
+            "street": "5302 S Williamson Blvd",
+            "city": "Port Orange",
+            "state": "FL",
+            "zip": "32128",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 29.108566,
+            "longitude": -81.034569
+        },
+        "dateOpened": "2013-09-13",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 7,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 108,
+        "locationId": "atascaderosupercharger",
+        "name": "Atascadero, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "6950 El Camino Real",
+            "city": "Atascadero",
+            "state": "CA",
+            "zip": "93422",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 35.48656,
+            "longitude": -120.66633
+        },
+        "dateOpened": "2013-07-03",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 262,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 138,
+        "locationId": "portstluciesupercharger",
+        "name": "Port St. Lucie, FL",
+        "status": "OPEN",
+        "address": {
+            "street": "1701 NW Peacock Blvd",
+            "city": "Port St. Lucie",
+            "state": "FL",
+            "zip": "34986",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 27.313023,
+            "longitude": -80.406688
+        },
+        "dateOpened": "2013-07-24",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 8,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 144,
+        "locationId": "highlandpark",
+        "name": "Highland Park (SC), IL",
+        "status": "CLOSED_PERM",
+        "address": {
+            "street": "1200 Old Skokie Road",
+            "city": "Highland Park",
+            "state": "IL",
+            "zip": "60035",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 42.17434,
+            "longitude": -87.816626
+        },
+        "stallCount": 4,
+        "counted": true,
+        "elevationMeters": 195,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 616,
+        "urlDiscuss": true
+    },
+    {
+        "id": 109,
+        "locationId": "barstowcasupercharger",
+        "name": "Barstow, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "2812 Lenwood Rd",
+            "city": "Barstow",
+            "state": "CA",
+            "zip": "92311",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 34.849129,
+            "longitude": -117.085446
+        },
+        "dateOpened": "2012-11-19",
+        "stallCount": 16,
+        "counted": true,
+        "elevationMeters": 725,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": true,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 142,
+        "locationId": "tiftonsupercharger",
+        "name": "Tifton, GA",
+        "status": "OPEN",
+        "address": {
+            "street": "1310 U.S. 82",
+            "city": "Tifton",
+            "state": "GA",
+            "zip": "31794",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 31.448847,
+            "longitude": -83.53221
+        },
+        "dateOpened": "2014-07-10",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 92,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 107,
+        "locationId": "yumasupercharger",
+        "name": "Yuma, AZ",
+        "status": "OPEN",
+        "address": {
+            "street": "310 N Madison Ave",
+            "city": "Yuma",
+            "state": "AZ",
+            "zip": "85364",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 32.726686,
+            "longitude": -114.619093
+        },
+        "dateOpened": "2014-02-04",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 43,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 118,
+        "locationId": "indiocaliforniasupercharger",
+        "name": "Indio, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "42100 Jackson St",
+            "city": "Indio",
+            "state": "CA",
+            "zip": "92203",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 33.741484,
+            "longitude": -116.215019
+        },
+        "dateOpened": "2014-09-26",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": -3,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 123,
+        "locationId": "rosevillesupercharger",
+        "name": "Roseville, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "1151 Galleria Blvd",
+            "city": "Roseville",
+            "state": "CA",
+            "zip": "95678",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 38.771208,
+            "longitude": -121.266149
+        },
+        "dateOpened": "2014-04-29",
+        "stallCount": 7,
+        "counted": true,
+        "elevationMeters": 66,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 120,
+        "locationId": "oxnardcasupercharger",
+        "name": "Oxnard, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "2751 Park View Ct",
+            "city": "Oxnard",
+            "state": "CA",
+            "zip": "93036",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 34.238654,
+            "longitude": -119.177398
+        },
+        "dateOpened": "2014-09-24",
+        "stallCount": 20,
+        "counted": true,
+        "elevationMeters": 24,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 102,
+        "locationId": "gilabendsupercharger",
+        "name": "Gila Bend, AZ",
+        "status": "OPEN",
+        "address": {
+            "street": "826 W Pima St",
+            "city": "Gila Bend",
+            "state": "AZ",
+            "zip": "85337",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 32.943969,
+            "longitude": -112.733506
+        },
+        "dateOpened": "2014-05-17",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 221,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 103,
+        "locationId": "holbrooksupercharger",
+        "name": "Holbrook, AZ",
+        "status": "OPEN",
+        "address": {
+            "street": "2096 Navajo Blvd",
+            "city": "Holbrook",
+            "state": "AZ",
+            "zip": "86025",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 34.922962,
+            "longitude": -110.145558
+        },
+        "dateOpened": "2014-01-15",
+        "stallCount": 4,
+        "counted": true,
+        "elevationMeters": 1596,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 112,
+        "locationId": "elcentrosupercharger",
+        "name": "El Centro, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "3451 S Dogwood Rd",
+            "city": "El Centro",
+            "state": "CA",
+            "zip": "92243",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 32.760837,
+            "longitude": -115.532486
+        },
+        "dateOpened": "2014-12-28",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": -8,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 140,
+        "locationId": "macongasupercharger",
+        "name": "Macon, GA",
+        "status": "OPEN",
+        "address": {
+            "street": "450 Martin Luther King Jr Blvd",
+            "city": "Macon",
+            "state": "GA",
+            "zip": "31201",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 32.8334275,
+            "longitude": -83.6255567
+        },
+        "dateOpened": "2014-05-08",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 98,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 133,
+        "locationId": "greenwichnorthsupercharger",
+        "name": "Greenwich, CT (north)",
+        "status": "OPEN",
+        "address": {
+            "street": "3000 Merritt Pkwy",
+            "city": "Greenwich",
+            "state": "CT",
+            "zip": "06830",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 41.041538,
+            "longitude": -73.671661
+        },
+        "dateOpened": "2014-02-12",
+        "stallCount": 4,
+        "counted": true,
+        "elevationMeters": 82,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 134,
+        "locationId": "greenwichsouthsupercharger",
+        "name": "Greenwich, CT (south)",
+        "status": "OPEN",
+        "address": {
+            "street": "2000 Merritt Pkwy",
+            "city": "Greenwich",
+            "state": "CT",
+            "zip": "06830",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 41.040555,
+            "longitude": -73.673445
+        },
+        "dateOpened": "2014-02-12",
+        "stallCount": 4,
+        "counted": false,
+        "elevationMeters": 81,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 136,
+        "locationId": "fortmyerssupercharger",
+        "name": "Fort Myers, FL",
+        "status": "OPEN",
+        "address": {
+            "street": "9903 Gulf Coast Main St",
+            "city": "Fort Myers",
+            "state": "FL",
+            "zip": "33913",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 26.48564,
+            "longitude": -81.787136
+        },
+        "dateOpened": "2013-07-25",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 6,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": false
+    },
+    {
+        "id": 129,
+        "locationId": "milfordnorthsupercharger",
+        "name": "Milford, CT (north)",
+        "status": "OPEN",
+        "address": {
+            "street": "1 CT Turnpike N",
+            "city": "Milford",
+            "state": "CT",
+            "zip": "06460",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 41.245814,
+            "longitude": -73.008988
+        },
+        "dateOpened": "2012-12-16",
+        "stallCount": 2,
+        "counted": true,
+        "elevationMeters": 19,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 130,
+        "locationId": "milfordsouthsupercharger",
+        "name": "Milford, CT (south)",
+        "status": "OPEN",
+        "address": {
+            "street": "1 CT Turnpike S",
+            "city": "Milford",
+            "state": "CT",
+            "zip": "06460",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 41.246232,
+            "longitude": -73.010529
+        },
+        "dateOpened": "2012-12-16",
+        "stallCount": 2,
+        "counted": false,
+        "elevationMeters": 19,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 141,
+        "locationId": "savannahsupercharger",
+        "name": "Savannah, GA",
+        "status": "OPEN",
+        "address": {
+            "street": "400 Airways Ave",
+            "city": "Savannah",
+            "state": "GA",
+            "zip": "31408",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 32.135507,
+            "longitude": -81.212767
+        },
+        "dateOpened": "2014-01-15",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 6,
+        "powerKilowatt": 125,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 1751,
+        "locationId": "rosemontillinoissupercharger",
+        "name": "Rosemont, IL",
+        "status": "OPEN",
+        "address": {
+            "street": "5220 Fashion Outlets Way",
+            "city": "Rosemont",
+            "state": "IL",
+            "zip": "60018",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 41.975091,
+            "longitude": -87.866501
+        },
+        "dateOpened": "2018-11-06",
+        "stallCount": 10,
+        "counted": true,
+        "elevationMeters": 194,
+        "powerKilowatt": 72,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 113,
+        "locationId": "folsompremiumoutletssupercharger",
+        "name": "Folsom - Iron Point Road, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "13000 Folsom Blvd",
+            "city": "Folsom",
+            "state": "CA",
+            "zip": "95630",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 38.64258,
+            "longitude": -121.18806
+        },
+        "dateOpened": "2012-11-19",
+        "stallCount": 4,
+        "counted": true,
+        "elevationMeters": 63,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 153,
+        "locationId": "worthingtonsupercharger",
+        "name": "Worthington, MN",
+        "status": "OPEN",
+        "address": {
+            "street": "1290 Ryan's Rd",
+            "city": "Worthington",
+            "state": "MN",
+            "zip": "56187",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 43.63385,
+            "longitude": -95.595647
+        },
+        "dateOpened": "2013-12-11",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 478,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 163,
+        "locationId": "burlingtonncsupercharger",
+        "name": "Burlington, NC",
+        "status": "OPEN",
+        "address": {
+            "street": "1080 Piper Ln",
+            "city": "Burlington",
+            "state": "NC",
+            "zip": "27215",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 36.07079,
+            "longitude": -79.511211
+        },
+        "dateOpened": "2013-10-16",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 197,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 1354,
+        "locationId": "spearfishsupercharger",
+        "name": "Spearfish, SD",
+        "status": "OPEN",
+        "address": {
+            "street": "3275 Old Belle Rd",
+            "city": "Spearfish",
+            "state": "SD",
+            "zip": "57783",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 44.520607,
+            "longitude": -103.890924
+        },
+        "dateOpened": "2017-10-30",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 1077,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 178,
+        "locationId": "santeesupercharger",
+        "name": "Santee, SC",
+        "status": "OPEN",
+        "address": {
+            "street": "114 Bradford Blvd",
+            "city": "Santee",
+            "state": "SC",
+            "zip": "29142",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 33.485858,
+            "longitude": -80.475763
+        },
+        "dateOpened": "2013-12-27",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 39,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 148,
+        "locationId": "mishawakasupercharger",
+        "name": "Mishawaka, IN",
+        "status": "OPEN",
+        "address": {
+            "street": "6501 Grape Rd",
+            "city": "Mishawaka",
+            "state": "IN",
+            "zip": "46545",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 41.7174,
+            "longitude": -86.1887
+        },
+        "dateOpened": "2013-12-11",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 234,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 176,
+        "locationId": "eastgreenwichsupercharger",
+        "name": "East Greenwich, RI",
+        "status": "OPEN",
+        "address": {
+            "street": "1000 Division St",
+            "city": "East Greenwich",
+            "state": "RI",
+            "zip": "02818",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 41.660517,
+            "longitude": -71.497242
+        },
+        "dateOpened": "2014-01-06",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 73,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 147,
+        "locationId": "angolasupercharger",
+        "name": "Angola, IN",
+        "status": "OPEN",
+        "address": {
+            "street": "3855 Indiana Rte 127",
+            "city": "Angola",
+            "state": "IN",
+            "zip": "46703",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 41.699048,
+            "longitude": -85.000326
+        },
+        "dateOpened": "2013-12-09",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 329,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 181,
+        "locationId": "rapidcitysupercharger",
+        "name": "Rapid City, SD",
+        "status": "OPEN",
+        "address": {
+            "street": "2200 N Maple Ave",
+            "city": "Rapid City",
+            "state": "SD",
+            "zip": "57701",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 44.105601,
+            "longitude": -103.212569
+        },
+        "dateOpened": "2013-11-25",
+        "stallCount": 4,
+        "counted": true,
+        "elevationMeters": 1006,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": false
+    },
+    {
+        "id": 172,
+        "locationId": "woodburnorsupercharger",
+        "name": "Woodburn, OR",
+        "status": "OPEN",
+        "address": {
+            "street": "255 N Arney Rd",
+            "city": "Woodburn",
+            "state": "OR",
+            "zip": "97071",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 45.15313,
+            "longitude": -122.881254
+        },
+        "dateOpened": "2013-08-28",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 56,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 1819,
+        "locationId": "richmoncaliforniasupercharger",
+        "name": "Richmond, CA",
+        "status": "OPEN",
+        "address": {
+            "street": "2157 Meeker Ave",
+            "city": "Richmond",
+            "state": "CA",
+            "zip": "94804",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 37.919969,
+            "longitude": -122.348976
+        },
+        "dateOpened": "2019-09-16",
+        "stallCount": 12,
+        "counted": true,
+        "elevationMeters": 4,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 155,
+        "locationId": "farmingtonnmsupercharger",
+        "name": "Farmington, NM",
+        "status": "OPEN",
+        "address": {
+            "street": "4200 Sierra Vista Dr",
+            "city": "Farmington",
+            "state": "NM",
+            "zip": "87402",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 36.766371,
+            "longitude": -108.144047
+        },
+        "dateOpened": "2014-01-10",
+        "stallCount": 4,
+        "counted": true,
+        "elevationMeters": 1673,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 149,
+        "locationId": "goodlandsupercharger",
+        "name": "Goodland, KS",
+        "status": "OPEN",
+        "address": {
+            "street": "2631 Enterprise Rd",
+            "city": "Goodland",
+            "state": "KS",
+            "zip": "67735",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 39.326253,
+            "longitude": -101.725171
+        },
+        "dateOpened": "2014-06-13",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 1129,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 175,
+        "locationId": "somersetsupercharger",
+        "name": "Somerset, PA",
+        "status": "OPEN",
+        "address": {
+            "street": "1030 N Center Ave",
+            "city": "Somerset",
+            "state": "PA",
+            "zip": "15501",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 40.017383,
+            "longitude": -79.077117
+        },
+        "dateOpened": "2014-01-10",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 641,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 1748,
+        "locationId": "ossiningnewyorksupercharger",
+        "name": "Ossining, NY",
+        "status": "OPEN",
+        "address": {
+            "street": "214 South Highland Ave",
+            "city": "Ossining",
+            "state": "NY",
+            "zip": "10510",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 41.144011,
+            "longitude": -73.861472
+        },
+        "dateOpened": "2019-06-14",
+        "stallCount": 12,
+        "counted": true,
+        "elevationMeters": 21,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 185,
+        "locationId": "sanmarcossupercharger",
+        "name": "San Marcos, TX",
+        "status": "OPEN",
+        "address": {
+            "street": "3939 Interstate 35",
+            "city": "San Marcos",
+            "state": "TX",
+            "zip": "78666",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 29.827692,
+            "longitude": -97.979677
+        },
+        "dateOpened": "2013-08-17",
+        "stallCount": 12,
+        "counted": true,
+        "elevationMeters": 202,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 182,
+        "locationId": "columbussupercharger",
+        "name": "Columbus, TX",
+        "status": "OPEN",
+        "address": {
+            "street": "2535 Texas 71",
+            "city": "Columbus",
+            "state": "TX",
+            "zip": "78934",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 29.690062,
+            "longitude": -96.537725
+        },
+        "dateOpened": "2013-10-07",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 57,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 173,
+        "locationId": "cranberrytownshipsupercharger",
+        "name": "Cranberry, PA",
+        "status": "OPEN",
+        "address": {
+            "street": "1308 Freedom Rd",
+            "city": "Cranberry Township",
+            "state": "PA",
+            "zip": "16066",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 40.683982,
+            "longitude": -80.10839
+        },
+        "dateOpened": "2014-04-04",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 312,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 179,
+        "locationId": "mitchellsupercharger",
+        "name": "Mitchell, SD",
+        "status": "OPEN",
+        "address": {
+            "street": "1305 W Havens St",
+            "city": "Mitchell",
+            "state": "SD",
+            "zip": "57301",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 43.701129,
+            "longitude": -98.04449999999997
+        },
+        "dateOpened": "2013-12-18",
+        "stallCount": 6,
+        "counted": true,
+        "elevationMeters": 410,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": false
+    },
+    {
+        "id": 210,
+        "locationId": "aichstettensupercharger",
+        "name": "Aichstetten, Germany",
+        "status": "OPEN",
+        "address": {
+            "street": "Am Waizenhof 12 (Autohof)",
+            "city": "Aichstetten",
+            "state": null,
+            "zip": "88317",
+            "countryId": 103,
+            "country": "Germany",
+            "regionId": 101,
+            "region": "Europe"
+        },
+        "gps": {
+            "latitude": 47.880483,
+            "longitude": 10.039783
+        },
+        "dateOpened": "2013-12-14",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 630,
+        "powerKilowatt": 130,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": false
+    },
+    {
+        "id": 775,
+        "locationId": "beaunesupercharger",
+        "name": "Beaune, France",
+        "status": "OPEN",
+        "address": {
+            "street": "Mercure Beaune Centre 7 Ave, Charles de Gaulle",
+            "city": "Beaune",
+            "state": null,
+            "zip": "21200",
+            "countryId": 110,
+            "country": "France",
+            "regionId": 101,
+            "region": "Europe"
+        },
+        "gps": {
+            "latitude": 47.017089,
+            "longitude": 4.836543
+        },
+        "dateOpened": "2015-12-21",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 210,
+        "powerKilowatt": 150,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": false
+    },
+    {
+        "id": 156,
+        "locationId": "gallupsupercharger",
+        "name": "Gallup, NM",
+        "status": "OPEN",
+        "address": {
+            "street": "111 Twin Buttes Rd",
+            "city": "Gallup",
+            "state": "NM",
+            "zip": "87301",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 35.505278,
+            "longitude": -108.828094
+        },
+        "dateOpened": "2014-01-07",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 1970,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 204,
+        "locationId": "pleasantprairiesupercharger",
+        "name": "Pleasant Prairie, WI",
+        "status": "OPEN",
+        "address": {
+            "street": "11211 120th Ave",
+            "city": "Pleasant Prairie",
+            "state": "WI",
+            "zip": "53158",
+            "countryId": 100,
+            "country": "USA",
+            "regionId": 100,
+            "region": "North America"
+        },
+        "gps": {
+            "latitude": 42.518715,
+            "longitude": -87.950428
+        },
+        "dateOpened": "2014-02-13",
+        "stallCount": 8,
+        "counted": true,
+        "elevationMeters": 216,
+        "powerKilowatt": 120,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": true
+    },
+    {
+        "id": 555,
+        "locationId": "osakakitakupanasonicsupercharger",
+        "name": "Osaka Suehirocho - Panasonic, Japan",
+        "status": "OPEN",
+        "address": {
+            "street": "2-40 Suehiro-cho, Kita-ku",
+            "city": "Osaka",
+            "state": null,
+            "zip": "530-0041",
+            "countryId": 114,
+            "country": "Japan",
+            "regionId": 102,
+            "region": "Asia Pacific"
+        },
+        "gps": {
+            "latitude": 34.700941,
+            "longitude": 135.51077
+        },
+        "dateOpened": "2015-02-13",
+        "stallCount": 4,
+        "counted": true,
+        "elevationMeters": 9,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": false
+    },
+    {
+        "id": 336,
+        "locationId": "yokohama",
+        "name": "Yokohama, Japan",
+        "status": "OPEN",
+        "address": {
+            "street": "Kanagawa, Totsuka Kamiyabe-cho",
+            "city": "Yokohama",
+            "state": null,
+            "zip": "995-1",
+            "countryId": 114,
+            "country": "Japan",
+            "regionId": 102,
+            "region": "Asia Pacific"
+        },
+        "gps": {
+            "latitude": 35.4260146,
+            "longitude": 139.5375485
+        },
+        "dateOpened": "2014-09-09",
+        "stallCount": 4,
+        "counted": true,
+        "elevationMeters": 43,
+        "powerKilowatt": 0,
+        "solarCanopy": false,
+        "battery": false,
+        "statusDays": 0,
+        "urlDiscuss": false
+    }
+]

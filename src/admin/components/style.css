@@ -1,0 +1,48 @@
+@import url('https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
+
+.test {
+    margin-top: 80px;
+}
+
+span {
+    color: #F2AB00;
+}
+
+.go {
+    display: flex;
+}
+
+.logo {
+    color: #F2AB00;
+}
+
+.title {
+    border-radius: 60px;
+    background-color: black;
+    color: #F2AB00;
+}
+
+#form {
+    color: black;
+    font-weight: bold;
+}
+
+.confirm {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+#mapid {
+    height: 100%;
+    width: 100%;
+}
+
+.good {
+    color: greenyellow;
+}
