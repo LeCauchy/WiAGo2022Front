@@ -111,7 +111,7 @@ class FixNavPage extends Component {
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='tables'
+                    to='/notifs'
                   > 
                     <MDBIcon icon="bell" />                  
                     <span> <strong>Notifications</strong> </span>
@@ -120,7 +120,7 @@ class FixNavPage extends Component {
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/'
+                    to='/stats'
                   >
                     <MDBIcon icon ='chart-line' />
                     <span> <strong>Statistiques</strong> </span>
