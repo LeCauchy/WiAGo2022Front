@@ -3,21 +3,21 @@ import { Route, Switch } from 'react-router-dom';
 import ProfilePage from './admin/components/pages/ProfilePage';
 import StatsPage from './admin/components/pages/StatPage';
 import AlertePage from './admin/components/pages/AlertePage';
-import NotifPage from './admin/components/pages/NotifPage'
+import NotificationPage from './admin/components/pages/NotificationPage'
 import NotFoundPage from './admin/components/pages/NotFoundPage';
 import MapPage from './admin/components/pages/MapPage';
 import HomePage from './admin/components/pages/HomePage';
+import WithMultipleCheckboxes from './admin/components/pages/WithMultipleCheckboxes';
 
 class Routes extends React.Component {
   render() {
     return (
       <Switch>
-        <Route path='/' exact component={HomePage} />
-        <Route path='/profile' component={ProfilePage} />
-        <Route path='/tables' component={AlertePage} />
+        <Route path='/' exact component={MapPage} />
+        <Route path='/about' component={ProfilePage} />
         <Route path='/404' component={NotFoundPage} />
-        <Route path='/map' component={MapPage} />
-        <Route path='/notifs' component={NotifPage} />
+        <Route path='/nodes' component={HomePage} />
+        <Route path='/notifs' component={NotificationPage} />
         <Route path='/stats' component={StatsPage} />
       </Switch>
     );

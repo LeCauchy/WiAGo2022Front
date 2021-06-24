@@ -1,136 +1,168 @@
 import React from 'react';
-import {
-  MDBCarousel,
-  MDBCarouselCaption,
-  MDBCarouselInner,
-  MDBCarouselItem,
-  MDBView,
-  MDBMask,
-  MDBContainer,
-  MDBCardBody,
-  MDBIcon,
-  MDBCard,
-  MDBCardTitle,
-  MDBCardHeader,
-  MDBCardText,
-  MDBNavLink
-} from 'mdbreact';
+import { MDBCardBody, MDBCard, MDBBreadcrumb, MDBBreadcrumbItem, MDBDataTableV5 } from 'mdbreact';
 import SectionContainer from '../sectionContainer';
 import '../style.css'
+import API_URL from '../constants';
 
-const HomePage = () => {
 
-  function scrollToTop() {
+class HomePage extends React.Component {
+
+
+  scrollToTop() {
     window.scrollTo(0, 0);
   }
 
-  return (
-    <div>
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      rows: [],
+      etat: [],
+      openNodes: [],
+      closeNodes: [],
+      columns: [
+        {
+          label: 'Nom',
+          field: 'node_name',
+          width: 150,
+          attributes: {
+            'aria-controls': 'DataTable',
+            'aria-label': 'Date',
+          },
+        },
+        {
+          label: 'Adresse IP',
+          field: 'ip_address',
+          width: 200,
+        },
+        {
+          label: 'Longitude',
+          field: 'longitude',
+          width: 200,
+        },
+        {
+          label: 'Latitude',
+          field: 'latitude',
+          width: 100,
+        },
+        {
+          label: 'Date de creation',
+          field: 'date_creation',
+          width: 100,
+        }
+      ],
+      closeNodes: [],
+
+    };
+  }
+
+  async componentDidMount() {
+
+    await fetch(API_URL + "node/", {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Content-type': 'application/json'
+      }
+    }).then((response) => response.json())
+      .then((responseJson) => {
+        this.setState({ rows: responseJson });
+      })
+    this.setState({ isLoading: false })
+
+    await fetch(API_URL + "state/", {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Content-type': 'application/json'
+      }
+    }).then((response) => response.json())
+      .then((responseJson) => {
+
+        this.setState({ etat: responseJson });
+        var open = []
+        var closed = []
+        for (var i = this.state.rows.length - 1; i >= 0; i--) {
+          for (var j = this.state.etat.length - 1; j >= 0; j--) {
+
+            if (this.state.rows[i].ip_address == this.state.etat[j].ip_address) {
+
+              if ((-new Date(this.state.etat[j].date_on).getTime() + new Date().getTime()) < 1000 * 60 * 5) {
+                open.push(this.state.rows[i])
+              } else {
+
+                fetch(API_URL + 'notif/', {
+                  method: 'POST',
+                  headers: {
+                    'Accept': 'application/json',
+                    'Content-type': 'application/json'
+                  },
+                  body: JSON.stringify(
+                    {
+                      "name": this.state.rows[i].node_name,
+                      "ip_address": this.state.rows[i].ip_address,
+                      "type": "Down"
+                    }
+                  )
+                })
+
+
+                closed.push(this.state.rows[i])
+
+              }
+              break;
+
+            }
+          }
+        }
+
+        this.setState({ openNodes: open })
+        this.setState({ closeNodes: closed })
+
+      })
+
+
+  }
+
+
+
+  render() {
+
+    return (
+
       <SectionContainer>
-        <MDBCarousel
-          activeItem={1}
-          length={5}
-          //showControls
-          showIndicators
-          className='z-depth-1'
-          slide
-        >
-          <MDBCarouselInner>
-            <MDBCarouselItem itemId='1'>
-              <MDBView>
-                <img
-                  className='d-block w-100'
-                  src='https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg'
-                  alt='First slide'
-                />
-                <MDBMask overlay='black-light' />
-              </MDBView>
-              <MDBCarouselCaption>
-                <h3 className='h3-responsive'>Welcome to <span> WIAGO </span></h3>
-                <p>Your best application for your Wiafirm Node Geolocation</p>
-              </MDBCarouselCaption>
-            </MDBCarouselItem>
-            <MDBCarouselItem itemId='2'>
-              <MDBView>
-                <img
-                  className='d-block w-100'
-                  src='https://mdbootstrap.com/img/Photos/Slides/img%20(99).jpg'
-                  alt='Second slide'
-                />
-                <MDBMask overlay='black-strong' />
-              </MDBView>
-              <MDBCarouselCaption>
-                <h3 className='h3-responsive'> Where ever you go </h3>
-                <p>Dans une ville, dans un pays, en voyage... Où que vous soyez, avec <span> WIAGO </span> vous avez la possibilité de visualiser tous les équipements connectés à votre réseau</p>
-              </MDBCarouselCaption>
-            </MDBCarouselItem>
-            <MDBCarouselItem itemId='3'>
-              <MDBView>
-                <img
-                  className='d-block w-100'
-                  src='https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg'
-                  alt='Third slide'
-                />
-                <MDBMask overlay='black-slight' />
-              </MDBView>
-              <MDBCarouselCaption>
-                <h3 className='h3-responsive'>Oups! Service Denied. </h3>
-                <p>Pas de stress gérer les dénis de service avec <span> WIAGO </span>. <br/>Eh oui! avec <span> WIAGO </span> vous êtes notifier instantanemment lorsqu'un noeud tombe en panne et connaissant exactement sa position vous pouvez aller immédiatement le réparer </p>
-              </MDBCarouselCaption>
-            </MDBCarouselItem>
-            <MDBCarouselItem itemId='4'>
-              <MDBView>
-                <img
-                  className='d-block w-100'
-                  src='https://mdbootstrap.com/img/Photos/Slides/img%20%28143%29.jpg'
-                  alt="Mattonit's item"
-                />
-                <MDBMask overlay='black-light' />
-              </MDBView>
-              <MDBCarouselCaption>
-                <h3 className='h3-responsive'>Best Wireless Access Point</h3>
-                <p> Pas de quoi de laisser troubler par un dénis de service. Avec <span> WIAGO </span>, chercher les points d'accès les plus proches de vous et connectez-vous</p>
-              </MDBCarouselCaption>
-            </MDBCarouselItem>
-            <MDBCarouselItem itemId='5'>
-              <MDBView>
-                <img
-                  className='d-block w-100'
-                  src='https://mdbootstrap.com/img/Photos/Slides/img%20(92).jpg'
-                  alt='First slide'
-                />
-                <MDBMask overlay='black-light' />
-              </MDBView>
-              <MDBCarouselCaption>
-                <MDBCard
-                  style={{ width: '15rem', height: '10rm' }} 
-                  className='go'
-                >
-                  <MDBCardHeader color='deep-orange lighten-1'>Finished</MDBCardHeader>
-                  <MDBCardBody>
-                    <MDBCardTitle>Welcome to WIAGO</MDBCardTitle>
-                    <MDBCardText>
-                      Please click the button and start use <span> WIAGO </span>
-                    </MDBCardText>                    
-                    <MDBNavLink
-                      tag='button'
-                      to='/LoginPage'
-                      color='mdb-color'
-                      className='btn btn-outline-mdb-color btn-sm btn-rounded d-inline'
-                      onClick={scrollToTop}
-                    >
-                      Login
-                    </MDBNavLink>
-                  </MDBCardBody>
-                </MDBCard>
-              </MDBCarouselCaption>
-            </MDBCarouselItem>
-          </MDBCarouselInner>
-        </MDBCarousel>
+        <MDBCard className="mb-5">
+          <MDBCardBody id="breadcrumb" className="d-flex align-items-center justify-content-between">
+            <MDBBreadcrumb>
+              <MDBBreadcrumbItem>Noeuds</MDBBreadcrumbItem>
+              <MDBBreadcrumbItem active>Liste</MDBBreadcrumbItem>
+            </MDBBreadcrumb>
+          </MDBCardBody>
+        </MDBCard>
+
+        <MDBCard className="mb-5">
+          <MDBCardBody id="breadcrumb" className="align-items-center justify-content-between">
+            <MDBDataTableV5
+              hover
+              // exportToCSV
+              // proSelect
+              entriesOptions={[10, 20, 25]}
+              entries={10}
+              pagesAmount={5}
+              data={this.state}
+              searchTop
+              searchBottom={false}
+              barReverse
+              //data={badgesData}
+              sortRows={['badge']}
+
+            /></MDBCardBody>
+        </MDBCard>
       </SectionContainer>
-    </div>
-    
-  );
+
+
+    )
+  };
 };
 
 export default HomePage;

@@ -1,6 +1,6 @@
 [
     {
-        "id": 2215,
+        "id": "2215",
         "locationId": " Polytechnique",
         "name": "Bloc Administratif",
         "status": "OPEN",
@@ -17,7 +17,7 @@
         "dateOpened": "2019-12-20"
     },
     {
-        "id": 2216,
+        "id": "2216",
         "locationId": " Polytechnique",
         "name": "Departement de Genie Mecanique",
         "status": "CLOSED",
@@ -34,7 +34,7 @@
         "dateOpened": "2019-12-20"
     },
     {
-        "id": 2217,
+        "id": "2217",
         "locationId": " Polytechnique",
         "name": "Departement de MSP",
         "status": "OPEN",
@@ -51,7 +51,7 @@
         "dateOpened": "2019-12-20"
     },
     {
-        "id": 2218,
+        "id": "2218",
         "locationId": " Polytechnique",
         "name": "Amphi 100",
         "status": "OPEN",
@@ -68,7 +68,7 @@
         "dateOpened": "2019-12-20"
     },
     {
-        "id": 2219,
+        "id": "2219",
         "locationId": " Polytechnique",
         "name": "Le Pentagone",
         "status": "CLOSED",
@@ -85,7 +85,7 @@
         "dateOpened": "2019-12-20"
     },
     {
-        "id": 2220,
+        "id": "2220",
         "locationId": " Polytechnique",
         "name": "Departement de GET",
         "status": "OPEN",
@@ -102,7 +102,7 @@
         "dateOpened": "2019-12-20"
     },
     {
-        "id": 2221,
+        "id": "2221",
         "locationId": " Polytechnique",
         "name": "Bloc Pedagogique N1",
         "status": "OPEN",
@@ -119,7 +119,7 @@
         "dateOpened": "2019-12-20"
     },
     {
-        "id": 2222,
+        "id": "2222",
         "locationId": " Polytechnique",
         "name": "Genie Informatique",
         "status": "CLOSED",

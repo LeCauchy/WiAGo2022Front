@@ -83,40 +83,35 @@ class FixNavPage extends Component {
                 <MDBNavItem>
                   <MDBNavLink
                     exact
-                    to='/'
+                    to='/nodes'
                     onClick={this.closeCollapse('mainNavbarCollapse')}
                   >
-                    <MDBIcon icon = 'home'/>
-                    <span> <strong>Home</strong> </span>
+                    <MDBIcon icon = 'cog'/>
+                    <span> <strong>Noeuds</strong> </span>
                   </MDBNavLink>
                 </MDBNavItem>
+
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/map'
+                    to='/'
                   >
                     <MDBIcon icon ='map-marker-alt' />
-                    <span> <strong> Noeud </strong> </span>
+                    <span> <strong> Carte </strong> </span>
                   </MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
-                  <MDBNavLink
-                    onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/tables'
-                  >
-                    <MDBIcon icon='envelope-square' />
-                    <span> <strong>Alertes</strong> </span>
-                  </MDBNavLink>
-                </MDBNavItem>
+
+                
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
                     to='/notifs'
                   > 
-                    <MDBIcon icon="bell" />                  
+                    <MDBIcon icon="envelope-square" />                  
                     <span> <strong>Notifications</strong> </span>
                   </MDBNavLink>
                 </MDBNavItem>
+
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
@@ -126,7 +121,8 @@ class FixNavPage extends Component {
                     <span> <strong>Statistiques</strong> </span>
                   </MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem>
+
+                {/* <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
                     to='/'
@@ -134,14 +130,15 @@ class FixNavPage extends Component {
                     <MDBIcon icon="cog" />
                     <span> <strong>Paramètres</strong> </span>
                   </MDBNavLink>
-                </MDBNavItem>
+                </MDBNavItem> */}
+
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/profile'
+                    to='/about'
                   >
                     <MDBIcon icon="user" />
-                    <span> <strong>Profil</strong> </span>
+                    <span> <strong>Description</strong> </span>
                   </MDBNavLink>
                 </MDBNavItem>
                             
